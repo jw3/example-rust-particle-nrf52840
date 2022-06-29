@@ -15,7 +15,8 @@ Bootstrap dev with Rust on Particle Xenon / Argon / Boron
   - set `DEFMT_LOG` for log level
 
 ## notes
-1. the debugger was not initially found by `probe-run --list-probes`
+1. Scaffold future projects with https://github.com/knurling-rs/app-template
+2. the debugger was not initially found by `probe-run --list-probes`
    - holding in the button while inserting it and it worked
    - after that even it works without holding button
 
