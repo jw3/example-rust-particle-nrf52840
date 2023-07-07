@@ -11,8 +11,8 @@ Bootstrap dev with Rust on Particle Xenon / Argon / Boron
 
 ## steps
 1. connect debugger to xenon, insert to usb
-2. `cargo run` 
-  - set `DEFMT_LOG` for log level
+2. export `DEFMT_LOG=info` (to see output from main.rs)
+3. `cargo run`
 
 ## notes
 1. Scaffold future projects with https://github.com/knurling-rs/app-template
@@ -24,4 +24,8 @@ Bootstrap dev with Rust on Particle Xenon / Argon / Boron
 - https://github.com/knurling-rs
 - https://github.com/daschl/nrf52840dk-sample
 - https://github.com/nrf-rs/nrf-hal
+- 
+
+## troubleshooting
+- https://ferrous-systems.com/blog/defmt-rtt-linker-error/
 - 
