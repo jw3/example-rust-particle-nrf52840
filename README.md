@@ -12,7 +12,7 @@ Bootstrap dev with Rust on Particle Xenon / Argon / Boron
 ## steps
 1. connect debugger to xenon, insert to usb
 2. export `DEFMT_LOG=info` (to see output from main.rs)
-3. `cargo run`
+3. `cargo run --example hello`
 
 ## notes
 1. Scaffold future projects with https://github.com/knurling-rs/app-template
